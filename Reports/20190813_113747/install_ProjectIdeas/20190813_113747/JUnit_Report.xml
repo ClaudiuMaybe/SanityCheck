@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="install_ProjectIdeas" time="165" tests="0" failures="1" errors="0">
+    <testsuite name="install_ProjectIdeas" tests="0" failures="1" errors="0" time="165" timestamp="2019-08-13 11:37:51" hostname="bogdan.eremia - ROECR-L013.roecr.ecrion.com" id="Test Suites/install_ProjectIdeas">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Katalon Projects\\Nido_Patch3\\Reports\\20190813_113747\\install_ProjectIdeas\\20190813_113747"/>
+            <property name="logFiles" value="C:\\Katalon Projects\\Nido_Patch3\\Reports\\20190813_113747\\install_ProjectIdeas\\20190813_113747\\execution0.log"/>
+            <property name="attachments" value="C:\\Katalon Projects\\Nido_Patch3\\Reports\\20190813_113747\\install_ProjectIdeas\\20190813_113747\\1565685636336.png, C:\\Katalon Projects\\Nido_Patch3\\Reports\\20190813_113747\\install_ProjectIdeas\\20190813_113747\\1565685636726.png"/>
+            <property name="hostName" value="bogdan.eremia - ROECR-L013.roecr.ecrion.com"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.0.1"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="192.168.192.57"/>
+            <property name="sessionId" value="71787a38bb474d3bb0149e08b771a9c5"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Project Ideas/Install_ProjectIdeas" classname="Test Cases/Project Ideas/Install_ProjectIdeas" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Project Ideas/Install_ProjectIdeas FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' is visible&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$8.call(Unknown Source)&#xD;&#xA;&#x9;at Install_ProjectIdeas.run(Install_ProjectIdeas:48)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:150)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:123)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:87)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1565685467449.run(TempTestSuite1565685467449.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-08-13 11:37:51 - [TEST_CASE][FAILED] - Test Cases/Project Ideas/Install_ProjectIdeas: Test Cases/Project Ideas/Install_ProjectIdeas FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' is visible&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$8.call(Unknown Source)&#xD;
+	at Install_ProjectIdeas.run(Install_ProjectIdeas:48)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:150)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:123)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:87)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565685467449.run(TempTestSuite1565685467449.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-08-13 11:37:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Main Login Page/login_Enterprise"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Login Page/login_Enterprise' successfully&#xD;
+&#xD;
+2019-08-13 11:37:52 - [TEST_CASE][PASSED] - Test Cases/Main Login Page/login_Enterprise: Test Cases/Main Login Page/login_Enterprise&#xD;
+&#xD;
+2019-08-13 11:37:52 - [TEST_STEP][PASSED] - openBrowser(url_enterprise, STOP_ON_FAILURE): Browser is opened with url: 'http://192.168.1.97:8094/'&#xD;
+&#xD;
+2019-08-13 11:37:52 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-13 11:37:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-08-13 11:37:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.1.97:8094/'&#xD;
+&#xD;
+2019-08-13 11:37:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-08-13 11:37:59 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-08-13 11:37:59 - [TEST_STEP][PASSED] - setText(findTestObject("Main Login Page/input_userName"), Username_Admin, CONTINUE_ON_FAILURE): Text 'Ere' is set on object 'Object Repository/Main Login Page/input_userName'&#xD;
+&#xD;
+2019-08-13 11:38:00 - [MESSAGE][PASSED] - Text 'Ere' is set on object 'Object Repository/Main Login Page/input_userName'&#xD;
+&#xD;
+2019-08-13 11:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Main Login Page/input_password"), Password_Admin, CONTINUE_ON_FAILURE): Text 'ere123' is set on object 'Object Repository/Main Login Page/input_password'&#xD;
+&#xD;
+2019-08-13 11:38:00 - [MESSAGE][PASSED] - Text 'ere123' is set on object 'Object Repository/Main Login Page/input_password'&#xD;
+&#xD;
+2019-08-13 11:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Main Login Page/button_Sign in"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Main Login Page/button_Sign in' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Main Login Page/button_Sign in' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:00 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-13 11:38:01 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-13 11:38:01 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main Login Page/Multiple environments/Environment Selector"), OPTIONAL)): Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-13 11:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Main Login Page/Multiple environments/Environment Selector' is visible&#xD;
+&#xD;
+2019-08-13 11:38:01 - [TEST_STEP][NOT_RUN] - delay(1, CONTINUE_ON_FAILURE): NOT_RUN: delay(1, CONTINUE_ON_FAILURE)&#xD;
+&#xD;
+2019-08-13 11:38:01 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1, CONTINUE_ON_FAILURE)&#xD;
+&#xD;
+2019-08-13 11:38:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Main Login Page/Multiple environments/button_Continue"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Main Login Page/Multiple environments/button_Continue' is clickable&#xD;
+&#xD;
+2019-08-13 11:38:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'&#xD;
+&#xD;
+2019-08-13 11:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Main Login Page/Multiple environments/button_Continue' is clickable&#xD;
+&#xD;
+2019-08-13 11:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Main Login Page/Multiple environments/Environment Selector"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Main Login Page/Multiple environments/Environment Selector' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Main Login Page/Multiple environments/Environment Selector' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Main Login Page/Multiple environments/button_Continue"), 1, CONTINUE_ON_FAILURE): Object 'Object Repository/Main Login Page/Multiple environments/button_Continue' is visible&#xD;
+&#xD;
+2019-08-13 11:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Main Login Page/Multiple environments/button_Continue' is visible&#xD;
+&#xD;
+2019-08-13 11:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Main Login Page/Multiple environments/button_Continue"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Main Login Page/Multiple environments/button_Continue' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Main Login Page/Multiple environments/button_Continue' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:02 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-13 11:38:04 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-13 11:38:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Login Page/login_Enterprise' successfully&#xD;
+&#xD;
+2019-08-13 11:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Project_Ideas/Page_Welcome - EOS/a_Developer")): Object: 'Object Repository/Project_Ideas/Page_Welcome - EOS/a_Developer' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Ideas/Page_Welcome - EOS/a_Developer' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Project_Ideas/Page_Developer - EOS/a_Project Ideas")): Object: 'Object Repository/Project_Ideas/Page_Developer - EOS/a_Project Ideas' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Ideas/Page_Developer - EOS/a_Project Ideas' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:05 - [TEST_STEP][PASSED] - click(findTestObject("Project_Ideas/Page_ProjectIdeas - Developer - EOS/button_ContextualMenu")): Object: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/button_ContextualMenu' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/button_ContextualMenu' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-13 11:38:06 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-13 11:38:06 - [TEST_STEP][PASSED] - click(findTestObject("Project_Ideas/Page_ProjectIdeas - Developer - EOS/a_Install all")): Object: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/a_Install all' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/a_Install all' is clicked on&#xD;
+&#xD;
+2019-08-13 11:38:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Financial_Successfully installed"), 120): Object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Financial_Successfully installed' is visible&#xD;
+&#xD;
+2019-08-13 11:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Financial_Successfully installed' is visible&#xD;
+&#xD;
+2019-08-13 11:38:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed"), 120): Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found&#xD;
+&#xD;
+2019-08-13 11:40:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-08-13 11:40:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found&#xD;
+&#xD;
+2019-08-13 11:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Retail_Successfully installed"), 120): Object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Retail_Successfully installed' is visible&#xD;
+&#xD;
+2019-08-13 11:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Retail_Successfully installed' is visible&#xD;
+&#xD;
+2019-08-13 11:40:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Telecom_Successfully installed"), 120): Object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Telecom_Successfully installed' is visible&#xD;
+&#xD;
+2019-08-13 11:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Telecom_Successfully installed' is visible&#xD;
+&#xD;
+2019-08-13 11:40:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Financial_Successfully installed")): Object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Financial_Successfully installed' is visible&#xD;
+&#xD;
+2019-08-13 11:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Financial_Successfully installed' is visible&#xD;
+&#xD;
+2019-08-13 11:40:31 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed")): Unable to verify object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' is visible&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$8.call(Unknown Source)&#xD;
+	at Install_ProjectIdeas.run(Install_ProjectIdeas:48)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:150)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:123)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:87)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565685467449.run(TempTestSuite1565685467449.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+)&#xD;
+&#xD;
+2019-08-13 11:40:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-08-13 11:40:36 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$8.call(Unknown Source)&#xD;
+	at Install_ProjectIdeas.run(Install_ProjectIdeas:48)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:150)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:123)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:87)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565685467449.run(TempTestSuite1565685467449.groovy:35)&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Katalon Projects\\Nido_Patch3\\Reports\\20190813_113747\\install_ProjectIdeas\\20190813_113747\\1565685636336.png]]&#xD;
+&#xD;
+2019-08-13 11:40:37 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' is visible&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$8.call(Unknown Source)&#xD;
+	at Install_ProjectIdeas.run(Install_ProjectIdeas:48)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:150)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:123)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:87)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565685467449.run(TempTestSuite1565685467449.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Katalon Projects\\Nido_Patch3\\Reports\\20190813_113747\\install_ProjectIdeas\\20190813_113747\\1565685636726.png]]</system-out>
+            <system-err>2019-08-13 11:37:51 - [TEST_CASE][FAILED] - Test Cases/Project Ideas/Install_ProjectIdeas: Test Cases/Project Ideas/Install_ProjectIdeas FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' is visible&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$8.call(Unknown Source)&#xD;
+	at Install_ProjectIdeas.run(Install_ProjectIdeas:48)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:150)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:123)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:87)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565685467449.run(TempTestSuite1565685467449.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed' located by 'By.xpath: //span[@id = 'insuranceFilePath' and (text() = 'Successfully installed samples in workspace: Default' or . = 'Successfully installed samples in workspace: Default')]' not found&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-08-13 11:37:51 - [TEST_SUITE][INCOMPLETE] - install_ProjectIdeas: null</system-out>
+        <system-err>2019-08-13 11:37:51 - [TEST_SUITE][INCOMPLETE] - install_ProjectIdeas: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity Check,Firefox 68.0,,,2019-08-12 17:32:56,2019-08-12 17:42:06,9m - 10.603s,INCOMPLETE
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/All_Sysadmin_Testcases,Firefox 68.0,,,2019-08-12 17:32:56,2019-08-12 17:34:49,1m - 52.656s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Create Multiple Environments""), [""Develop_env"":findTestData(""Environment Names"").getValue(1, 1), ""Username"":Username_Admin, ""Experience_Env"":findTestData(""Environment Names"").getValue(1, 2), ... ], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:32:56,2019-08-12 17:33:45,49.317s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:33:45,2019-08-12 17:33:48,3.006s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Set_NoOfThreads""), [""EnvName"":""QaTest"", ""Username"":""Ere""], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:33:48,2019-08-12 17:33:53,4.537s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:33:53,2019-08-12 17:33:53,0.000s,NOT_RUN
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/Run_PreProdTest""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:33:53,2019-08-12 17:33:53,0.001s,NOT_RUN
+"delay(3, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:33:53,2019-08-12 17:33:56,3.002s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Help/Sysadmin_Ask a question_Window""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:33:56,2019-08-12 17:34:05,8.714s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:05,2019-08-12 17:34:08,3.015s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/EmailConnection/Set_Email_Connection""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:08,2019-08-12 17:34:15,6.769s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:15,2019-08-12 17:34:18,3.001s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/AmazonConnection/Create_Amazon_Connection""), [""variable"":url_sysadmin], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:18,2019-08-12 17:34:22,4.046s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:22,2019-08-12 17:34:25,3.003s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Edit Account/Edit Account""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:25,2019-08-12 17:34:33,8.316s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:33,2019-08-12 17:34:36,3.002s,PASSED
+"callTestCase(findTestCase(""Sysadmin Login Page/Reset password""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:36,2019-08-12 17:34:49,12.690s,PASSED
+windowsCommands.taskKill.kill_service(),Firefox 68.0,,,2019-08-12 17:34:49,2019-08-12 17:34:49,0.023s,PASSED
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Create_Email_Channel_Contact_NonAdminUser_Group,Firefox 68.0,,,2019-08-12 17:34:49,2019-08-12 17:37:44,2m - 55.167s,PASSED
+"callTestCase(findTestCase(""Admin/Admin_Settings""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:34:49,2019-08-12 17:36:13,1m - 24.008s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:36:13,2019-08-12 17:36:15,2.001s,PASSED
+"callTestCase(findTestCase(""Admin/ES_LIcensesTests""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:36:15,2019-08-12 17:37:02,47.008s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:37:02,2019-08-12 17:37:04,2.003s,PASSED
+"callTestCase(findTestCase(""Contacts/Create_Contact""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:37:04,2019-08-12 17:37:11,6.766s,PASSED
+delay(2),Firefox 68.0,,,2019-08-12 17:37:11,2019-08-12 17:37:13,2.001s,PASSED
+"callTestCase(findTestCase(""Workspaces/Create_Workspace""), [:], STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:37:13,2019-08-12 17:37:18,5.424s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:37:18,2019-08-12 17:37:20,2.002s,PASSED
+"callTestCase(findTestCase(""Groups_Users/Create Group_Users""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:37:20,2019-08-12 17:37:44,23.771s,PASSED
+windowsCommands.taskKill.kill_service(),Firefox 68.0,,,2019-08-12 17:37:44,2019-08-12 17:37:44,0.015s,PASSED
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Create_Run_Publisb_Projects and Communications,Firefox 68.0,,,2019-08-12 17:37:44,2019-08-12 17:41:31,3m - 47.298s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/Create_Projects""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:37:44,2019-08-12 17:38:40,56.535s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:38:40,2019-08-12 17:38:42,2.026s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/Run_Communications""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:38:42,2019-08-12 17:40:21,1m - 38.431s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:40:21,2019-08-12 17:40:23,2.005s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/PublishProject_NewEnv""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:40:23,2019-08-12 17:40:55,31.570s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:40:55,2019-08-12 17:40:57,2.003s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:40:57,2019-08-12 17:41:07,10.267s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:07,2019-08-12 17:41:09,2.002s,PASSED
+"callTestCase(findTestCase(""Main Login Page/switch_Environments_Experience""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:09,2019-08-12 17:41:09,0.611s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:09,2019-08-12 17:41:11,2.003s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:11,2019-08-12 17:41:21,9.930s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:21,2019-08-12 17:41:23,2.002s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs - 2nd Workspace""), [:], STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:23,2019-08-12 17:41:31,7.711s,PASSED
+windowsCommands.taskKill.kill_service(),Firefox 68.0,,,2019-08-12 17:41:31,2019-08-12 17:41:31,0.031s,PASSED
+,,,,,,,
+Test Cases/Sysadmin Portal/ConfigureSearch_QaTest2,Firefox 68.0,,,2019-08-12 17:41:31,2019-08-12 17:41:49,17.620s,PASSED
+"callTestCase(findTestCase(""Sysadmin Login Page/login_Sysadmin""), [:], STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:31,2019-08-12 17:41:41,9.624s,PASSED
+"click(findTestObject(""Sysadmin Portal/a_Environments""), CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:41,2019-08-12 17:41:41,0.112s,PASSED
+"click(findTestObject(""Sysadmin Portal/Environments Page/select_2_Experience_Env""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:41,2019-08-12 17:41:42,0.874s,PASSED
+"delay(1, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:42,2019-08-12 17:41:43,1.003s,PASSED
+"click(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/a_Search""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:43,2019-08-12 17:41:43,0.264s,PASSED
+"click(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/button_Configure""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:43,2019-08-12 17:41:43,0.267s,PASSED
+"delay(2, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:43,2019-08-12 17:41:45,2.003s,PASSED
+"check(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/input_Crawl Document Content (""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:45,2019-08-12 17:41:46,0.271s,PASSED
+"check(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/input_Crawl Job Output (slower""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:46,2019-08-12 17:41:46,0.256s,PASSED
+"check(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/input_Enable Search for Portal""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:46,2019-08-12 17:41:46,0.271s,PASSED
+"click(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/button_Save""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:46,2019-08-12 17:41:46,0.277s,PASSED
+"delay(1, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:46,2019-08-12 17:41:47,1.004s,PASSED
+"waitForElementVisible(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/span_Total crawled""), 5)",Firefox 68.0,,,2019-08-12 17:41:47,2019-08-12 17:41:47,0.000s,NOT_RUN
+"verifyElementVisible(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/span_Total crawled""), CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:47,2019-08-12 17:41:47,0.000s,NOT_RUN
+"click(findTestObject(""Sysadmin Portal/Environments Page/Page_Environments - ConfigSearch/button_Ok""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:47,2019-08-12 17:41:48,0.264s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-08-12 17:41:48,2019-08-12 17:41:49,0.940s,PASSED
+,,,,,,,
+Test Cases/Search/Search,Firefox 68.0,,,2019-08-12 17:41:49,2019-08-12 17:42:06,17.579s,PASSED
+"callTestCase(findTestCase(""Main Login Page/login_Enterprise""), [:], STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:49,2019-08-12 17:41:57,8.094s,PASSED
+"delay(3, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:41:57,2019-08-12 17:42:00,3.003s,PASSED
+"waitForPageLoad(5, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:42:00,2019-08-12 17:42:00,0.017s,PASSED
+"click(findTestObject(""Search/button_searchbar""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:42:00,2019-08-12 17:42:00,0.269s,PASSED
+"setText(findTestObject(""Search/textbox_Searchbar""), ""OnDemand"")",Firefox 68.0,,,2019-08-12 17:42:00,2019-08-12 17:42:00,0.086s,PASSED
+"sendKeys(findTestObject(""Search/textbox_Searchbar""), Keys.chord(ENTER))",Firefox 68.0,,,2019-08-12 17:42:00,2019-08-12 17:42:01,0.516s,PASSED
+"switchToWindowIndex(""1"")",Firefox 68.0,,,2019-08-12 17:42:01,2019-08-12 17:42:01,0.140s,PASSED
+"delay(2, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:42:01,2019-08-12 17:42:03,2.002s,PASSED
+"click(findTestObject(""Search/button_FilesFilter""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:42:03,2019-08-12 17:42:03,0.051s,PASSED
+"delay(2, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-12 17:42:03,2019-08-12 17:42:05,2.002s,PASSED
+"verifyElementAttributeValue(findTestObject(""Search/searchResult_3_TestOnDemand""), ""href"", Search_Result_Link, 0)",Firefox 68.0,,,2019-08-12 17:42:05,2019-08-12 17:42:05,0.067s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-08-12 17:42:05,2019-08-12 17:42:06,1.190s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adds all the available elements in the form and verifies that they are added.</description>
+   <name>3_Form_Editor_Add_Elements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07a3e1b5-4f3f-4a55-ab1b-6fb490374d11</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Default</name>
+   <tag></tag>
+   <elementGuidId>8507edea-d0ef-4553-bd62-eed8ae5865ce</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/EOS/Files/#workspace/Default</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Default</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grid&quot;)/div[@class=&quot;eos-table-view jsgrid&quot;]/div[@class=&quot;jsgrid-grid-body&quot;]/table[@class=&quot;jsgrid-table&quot;]/tbody[1]/tr[@class=&quot;jsgrid-row&quot;]/td[@class=&quot;jsgrid-cell ellipses&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

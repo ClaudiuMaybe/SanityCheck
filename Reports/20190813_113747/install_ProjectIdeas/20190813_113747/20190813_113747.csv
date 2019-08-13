@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+install_ProjectIdeas,Chrome 76.0.3809.100,,,2019-08-13 11:37:51,2019-08-13 11:40:37,2m - 45.338s,INCOMPLETE
+,,,,,,,
+Test Cases/Project Ideas/Install_ProjectIdeas,Chrome 76.0.3809.100,,,2019-08-13 11:37:51,2019-08-13 11:40:37,2m - 45.107s,FAILED
+"callTestCase(findTestCase(""Main Login Page/login_Enterprise""), [:], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 11:37:52,2019-08-13 11:38:04,11.874s,PASSED
+"click(findTestObject(""Project_Ideas/Page_Welcome - EOS/a_Developer""))",Chrome 76.0.3809.100,,,2019-08-13 11:38:04,2019-08-13 11:38:04,0.401s,PASSED
+"click(findTestObject(""Project_Ideas/Page_Developer - EOS/a_Project Ideas""))",Chrome 76.0.3809.100,,,2019-08-13 11:38:04,2019-08-13 11:38:05,0.799s,PASSED
+"click(findTestObject(""Project_Ideas/Page_ProjectIdeas - Developer - EOS/button_ContextualMenu""))",Chrome 76.0.3809.100,,,2019-08-13 11:38:05,2019-08-13 11:38:05,0.190s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-13 11:38:05,2019-08-13 11:38:06,1.007s,PASSED
+"click(findTestObject(""Project_Ideas/Page_ProjectIdeas - Developer - EOS/a_Install all""))",Chrome 76.0.3809.100,,,2019-08-13 11:38:06,2019-08-13 11:38:06,0.175s,PASSED
+"waitForElementVisible(findTestObject(""Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Financial_Successfully installed""), 120)",Chrome 76.0.3809.100,,,2019-08-13 11:38:06,2019-08-13 11:38:27,20.665s,PASSED
+"waitForElementVisible(findTestObject(""Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed""), 120)",Chrome 76.0.3809.100,,,2019-08-13 11:38:27,2019-08-13 11:40:30,2m - 3.717s,PASSED
+"waitForElementVisible(findTestObject(""Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Retail_Successfully installed""), 120)",Chrome 76.0.3809.100,,,2019-08-13 11:40:30,2019-08-13 11:40:31,0.076s,PASSED
+"waitForElementVisible(findTestObject(""Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Telecom_Successfully installed""), 120)",Chrome 76.0.3809.100,,,2019-08-13 11:40:31,2019-08-13 11:40:31,0.075s,PASSED
+"verifyElementVisible(findTestObject(""Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Financial_Successfully installed""))",Chrome 76.0.3809.100,,,2019-08-13 11:40:31,2019-08-13 11:40:31,0.050s,PASSED
+"verifyElementVisible(findTestObject(""Project_Ideas/Page_ProjectIdeas - Developer - EOS/span_Insurance_Successfully installed""))",Chrome 76.0.3809.100,,,2019-08-13 11:40:31,2019-08-13 11:40:37,5.858s,FAILED

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sysadmin_Testsuite,Chrome 76.0.3809.100,,,2019-08-13 10:56:03,2019-08-13 10:57:57,1m - 53.927s,INCOMPLETE
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Sysadmin_testcases,Chrome 76.0.3809.100,,,2019-08-13 10:56:03,2019-08-13 10:57:57,1m - 53.734s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Create Multiple Environments""), [""Develop_env"":findTestData(""Environment Names"").getValue(1, 1), ""Username"":Username_Admin, ""Experience_Env"":findTestData(""Environment Names"").getValue(1, 2), ... ], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:56:04,2019-08-13 10:56:53,49.727s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:56:53,2019-08-13 10:56:56,3.004s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Set_NoOfThreads""), [""EnvName"":""QaTest"", ""Username"":""Ere""], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:56:56,2019-08-13 10:57:00,3.794s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:00,2019-08-13 10:57:00,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/Run_PreProdTest""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:00,2019-08-13 10:57:00,0.000s,NOT_RUN
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:00,2019-08-13 10:57:03,3.004s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Help/Sysadmin_Ask a question_Window""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:03,2019-08-13 10:57:13,9.514s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:13,2019-08-13 10:57:16,3.003s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/EmailConnection/Set_Email_Connection""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:16,2019-08-13 10:57:23,7.245s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:23,2019-08-13 10:57:26,3.002s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/AmazonConnection/Create_Amazon_Connection""), [""variable"":url_sysadmin], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:26,2019-08-13 10:57:30,3.834s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:30,2019-08-13 10:57:33,3.004s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Edit Account/Edit Account""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:33,2019-08-13 10:57:40,7.685s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:40,2019-08-13 10:57:43,3.004s,PASSED
+"callTestCase(findTestCase(""Sysadmin Login Page/Reset password""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 10:57:43,2019-08-13 10:57:57,13.661s,PASSED
+windowsCommands.taskKill.kill_service(),Chrome 76.0.3809.100,,,2019-08-13 10:57:57,2019-08-13 10:57:57,0.044s,PASSED

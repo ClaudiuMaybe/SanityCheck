@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set_NoOfThreads</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9888fd92-199e-42f9-bf21-1d995370032c</testCaseGuid>
+   <variable>
+      <defaultValue>'QaTest'</defaultValue>
+      <description></description>
+      <id>1082b4b4-8dad-42f8-b56f-c0ec96083b76</id>
+      <masked>false</masked>
+      <name>EnvName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ere'</defaultValue>
+      <description></description>
+      <id>aadc44d1-82b4-4f42-b57f-e6d4d29c5d45</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

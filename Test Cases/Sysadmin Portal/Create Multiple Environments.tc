@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Multiple Environments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83e40251-0313-4112-adf2-f5929777cb16</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Environment Names').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9336ea64-f925-4da2-ad71-95688ac0b60a</id>
+      <masked>false</masked>
+      <name>Develop_env</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Environment Names').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>dda6a7c6-2102-41f7-bbbb-9f412b2f4e87</id>
+      <masked>false</masked>
+      <name>Experience_Env</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Environment Names').getValue(1, 3)</defaultValue>
+      <description></description>
+      <id>f6bdcf68-8f7e-4679-94ba-63ab42f53ffa</id>
+      <masked>false</masked>
+      <name>Custom_Env</name>
+   </variable>
+</TestCaseEntity>

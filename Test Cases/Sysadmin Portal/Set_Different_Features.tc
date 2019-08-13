@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set_Different_Features</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04b0f808-ec23-462f-a4ee-61fd41abfd40</testCaseGuid>
+   <variable>
+      <defaultValue>'QaTest'</defaultValue>
+      <description></description>
+      <id>9e632251-c73b-40ea-92aa-4f82082ee45c</id>
+      <masked>false</masked>
+      <name>EnvName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ere'</defaultValue>
+      <description></description>
+      <id>2e9a5b35-069c-4c5e-bb37-c0b1237151ab</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

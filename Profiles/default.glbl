@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Sysadmin URL</description>
+      <initValue>'http://192.168.1.97:8095/'</initValue>
+      <name>url_sysadmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Enterprise URL</description>
+      <initValue>'http://192.168.1.97:8094/'</initValue>
+      <name>url_enterprise</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Environment Administrator Username</description>
+      <initValue>'Ere'</initValue>
+      <name>Username_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Environment Administrator Password</description>
+      <initValue>'ere123'</initValue>
+      <name>Password_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Environment Admin email</description>
+      <initValue>'bogdan.eremia@ecrion.com'</initValue>
+      <name>Email_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Your licensing account username</description>
+      <initValue>'bogdane'</initValue>
+      <name>LicenseAcc_Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Your licensing account password</description>
+      <initValue>'ebogdan'</initValue>
+      <name>LicenseAcc_Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Amazon access key</description>
+      <initValue>'AKIAIOTZM25A57BK3Z6A'</initValue>
+      <name>AmazonAccessKeyID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Amazon secret key</description>
+      <initValue>'s+xlU92Ni2V4pVWthe6JpBQGsHtX82IPt3jkUXbE'</initValue>
+      <name>AWSSecretAccessKey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Set the path for the file you wish to upload to the support ticket</description>
+      <initValue>'C:\\Users\\bogdan.eremia\\Downloads\\Support_Test\\download.jfif'</initValue>
+      <name>FilePath_SupportTicket</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Username for the user that will be created without admin priviledges</description>
+      <initValue>'Erre'</initValue>
+      <name>username_NonAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password for the user that will be created without admin priviledges</description>
+      <initValue>'ere123'</initValue>
+      <name>password_NonAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>emailfor the user that will be created without admin priviledges</description>
+      <initValue>'test@test.ro'</initValue>
+      <name>email_NonAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Name of the group that will be created without admin priviledges</description>
+      <initValue>'NonAdminGroup'</initValue>
+      <name>GroupName_NonAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>You will only need to modify the first part of the url (ex. http://192.168.1.55:8094)</description>
+      <initValue>'http://192.168.1.97:8094/EOS/Files/#workspace/Default/3_OnDemand%20Comm'</initValue>
+      <name>Search_Result_Link</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SmsConnection'</initValue>
+      <name>SMSConnection</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ROECRPRN02'</initValue>
+      <name>Printer_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test'</initValue>
+      <name>Workspace_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\bogdan.eremia\\Downloads\\1_Batch_Comm.zip'</initValue>
+      <name>ExportProject_Path</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

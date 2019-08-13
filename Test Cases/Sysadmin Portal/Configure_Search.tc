@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Configure_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9687daa8-a9af-475d-ae42-0a6753d6fb4e</testCaseGuid>
+   <variable>
+      <defaultValue>'QaTest'</defaultValue>
+      <description></description>
+      <id>21066649-ef0c-4520-894d-f4c34c50e4db</id>
+      <masked>false</masked>
+      <name>EnvName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ere'</defaultValue>
+      <description></description>
+      <id>eea6c6ac-3212-49ed-854f-6eaefc742802</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

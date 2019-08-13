@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin_Testsuite,Firefox 68.0,,,2019-08-13 10:58:21,2019-08-13 11:01:15,2m - 54.425s,INCOMPLETE
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Admin_Sysinternals_Testcases,Firefox 68.0,,,2019-08-13 10:58:21,2019-08-13 11:01:15,2m - 54.238s,PASSED
+"callTestCase(findTestCase(""Admin/Admin_Settings""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 10:58:21,2019-08-13 10:59:44,1m - 22.457s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 10:59:44,2019-08-13 10:59:46,2.002s,PASSED
+"callTestCase(findTestCase(""Admin/ES_LIcensesTests""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 10:59:46,2019-08-13 11:00:33,47.264s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 11:00:33,2019-08-13 11:00:35,2.001s,PASSED
+"callTestCase(findTestCase(""Contacts/Create_Contact""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 11:00:35,2019-08-13 11:00:42,7.228s,PASSED
+delay(2),Firefox 68.0,,,2019-08-13 11:00:42,2019-08-13 11:00:44,2.002s,PASSED
+"callTestCase(findTestCase(""Workspaces/Create_Workspace""), [:], STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-13 11:00:44,2019-08-13 11:00:50,5.421s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 11:00:50,2019-08-13 11:00:52,2.001s,PASSED
+"callTestCase(findTestCase(""Groups_Users/Create Group_Users""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 11:00:52,2019-08-13 11:01:15,23.657s,PASSED
+windowsCommands.taskKill.kill_service(),Firefox 68.0,,,2019-08-13 11:01:15,2019-08-13 11:01:15,0.018s,PASSED

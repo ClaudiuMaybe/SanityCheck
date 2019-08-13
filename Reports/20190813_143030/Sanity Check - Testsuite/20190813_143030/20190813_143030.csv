@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sanity Check - Testsuite,Chrome 76.0.3809.100,,,2019-08-13 14:30:34,2019-08-13 14:39:30,8m - 55.978s,INCOMPLETE
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Sysadmin - Testcases,Chrome 76.0.3809.100,,,2019-08-13 14:30:35,2019-08-13 14:32:27,1m - 52.638s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Create Multiple Environments""), [""Develop_env"":findTestData(""Environment Names"").getValue(1, 1), ""Username"":Username_Admin, ""Experience_Env"":findTestData(""Environment Names"").getValue(1, 2), ... ], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:30:35,2019-08-13 14:31:24,49.512s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:24,2019-08-13 14:31:27,3.004s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Set_NoOfThreads""), [""EnvName"":""QaTest"", ""Username"":""Ere""], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:27,2019-08-13 14:31:31,3.752s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:31,2019-08-13 14:31:31,0.001s,NOT_RUN
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/Run_PreProdTest""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:31,2019-08-13 14:31:31,0.000s,NOT_RUN
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:31,2019-08-13 14:31:34,3.003s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Help/Sysadmin_Ask a question_Window""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:34,2019-08-13 14:31:43,8.893s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:43,2019-08-13 14:31:46,3.003s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/EmailConnection/Set_Email_Connection""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:46,2019-08-13 14:31:53,6.715s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:53,2019-08-13 14:31:56,3.001s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Domain/AmazonConnection/Create_Amazon_Connection""), [""variable"":url_sysadmin], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:31:56,2019-08-13 14:32:00,3.817s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:32:00,2019-08-13 14:32:03,3.001s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Edit Account/Edit Account""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:32:03,2019-08-13 14:32:10,7.614s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:32:10,2019-08-13 14:32:13,3.003s,PASSED
+"callTestCase(findTestCase(""Sysadmin Login Page/Reset password""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:32:13,2019-08-13 14:32:27,14.077s,PASSED
+windowsCommands.taskKill.kill_service(),Chrome 76.0.3809.100,,,2019-08-13 14:32:27,2019-08-13 14:32:27,0.032s,PASSED
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Admin - Testcases,Chrome 76.0.3809.100,,,2019-08-13 14:32:27,2019-08-13 14:35:14,2m - 46.922s,PASSED
+"callTestCase(findTestCase(""Admin/Admin_Settings""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:32:27,2019-08-13 14:33:46,1m - 18.877s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:33:46,2019-08-13 14:33:48,2.002s,PASSED
+"callTestCase(findTestCase(""Admin/ES_LIcensesTests""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:33:48,2019-08-13 14:34:32,43.449s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:34:32,2019-08-13 14:34:34,2.000s,PASSED
+"callTestCase(findTestCase(""Contacts/Create_Contact""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:34:34,2019-08-13 14:34:41,6.980s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-08-13 14:34:41,2019-08-13 14:34:43,2.003s,PASSED
+"callTestCase(findTestCase(""Workspaces/Create_Workspace""), [:], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:34:43,2019-08-13 14:34:48,5.433s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:34:48,2019-08-13 14:34:50,2.002s,PASSED
+"callTestCase(findTestCase(""Groups_Users/Create Group_Users""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:34:50,2019-08-13 14:35:14,23.986s,PASSED
+windowsCommands.taskKill.kill_service(),Chrome 76.0.3809.100,,,2019-08-13 14:35:14,2019-08-13 14:35:14,0.017s,PASSED
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Projects_Communications - Testcases,Chrome 76.0.3809.100,,,2019-08-13 14:35:14,2019-08-13 14:38:56,3m - 41.298s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/Create_Projects""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:35:14,2019-08-13 14:36:03,48.773s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:36:03,2019-08-13 14:36:05,2.002s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/Run_Communications""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:36:05,2019-08-13 14:37:45,1m - 39.461s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:37:45,2019-08-13 14:37:47,2.002s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/PublishProject_NewEnv""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:37:47,2019-08-13 14:38:18,31.742s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:18,2019-08-13 14:38:20,2.001s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:20,2019-08-13 14:38:31,10.206s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:31,2019-08-13 14:38:33,2.002s,PASSED
+"callTestCase(findTestCase(""Main Login Page/switch_Environments_Experience""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:33,2019-08-13 14:38:33,0.355s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:33,2019-08-13 14:38:35,2.001s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:35,2019-08-13 14:38:45,10.227s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:45,2019-08-13 14:38:47,2.002s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs - 2nd Workspace""), [:], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:47,2019-08-13 14:38:55,8.324s,PASSED
+windowsCommands.taskKill.kill_service(),Chrome 76.0.3809.100,,,2019-08-13 14:38:55,2019-08-13 14:38:56,0.025s,PASSED
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Search - Testcases,Chrome 76.0.3809.100,,Search,2019-08-13 14:38:56,2019-08-13 14:39:30,34.929s,PASSED
+"callTestCase(findTestCase(""Sysadmin Portal/Configure_Search""), [""EnvName"":""QaTest"", ""Username"":""Ere""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:38:56,2019-08-13 14:39:12,15.894s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-08-13 14:39:12,2019-08-13 14:39:14,2.004s,PASSED
+"callTestCase(findTestCase(""Search/Search""), [:], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:39:14,2019-08-13 14:39:30,16.886s,PASSED

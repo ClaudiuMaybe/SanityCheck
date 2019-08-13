@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>list of system status - Platform services - service</description>
+   <name>NonAdminUser_Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>bcb91bfc-e2d3-4507-9695-cb05f61082ee</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Non_Admin_FirstnAME</data>
+   <data>Non_admin_LastName</data>
+   <data>Jobless</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Service</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

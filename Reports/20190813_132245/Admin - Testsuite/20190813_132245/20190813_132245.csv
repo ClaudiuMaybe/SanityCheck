@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Testsuite,Chrome 76.0.3809.100,,,2019-08-13 13:22:49,2019-08-13 13:25:38,2m - 48.496s,INCOMPLETE
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Admin - Testcases,Chrome 76.0.3809.100,,,2019-08-13 13:22:49,2019-08-13 13:25:38,2m - 48.317s,PASSED
+"callTestCase(findTestCase(""Admin/Admin_Settings""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 13:22:50,2019-08-13 13:24:10,1m - 20.116s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 13:24:10,2019-08-13 13:24:12,2.003s,PASSED
+"callTestCase(findTestCase(""Admin/ES_LIcensesTests""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 13:24:12,2019-08-13 13:24:55,43.417s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 13:24:55,2019-08-13 13:24:57,2.001s,PASSED
+"callTestCase(findTestCase(""Contacts/Create_Contact""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 13:24:57,2019-08-13 13:25:04,6.919s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-08-13 13:25:04,2019-08-13 13:25:06,2.002s,PASSED
+"callTestCase(findTestCase(""Workspaces/Create_Workspace""), [:], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 13:25:06,2019-08-13 13:25:12,5.497s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 13:25:12,2019-08-13 13:25:14,2.001s,PASSED
+"callTestCase(findTestCase(""Groups_Users/Create Group_Users""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 13:25:14,2019-08-13 13:25:38,24.132s,PASSED
+windowsCommands.taskKill.kill_service(),Chrome 76.0.3809.100,,,2019-08-13 13:25:38,2019-08-13 13:25:38,0.034s,PASSED

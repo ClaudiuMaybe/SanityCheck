@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Project_Communications - Testsuite,Chrome 76.0.3809.100,,,2019-08-13 14:11:52,2019-08-13 14:15:35,3m - 42.817s,INCOMPLETE
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Projects_Communications - Testcases,Chrome 76.0.3809.100,,,2019-08-13 14:11:52,2019-08-13 14:15:35,3m - 42.629s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/Create_Projects""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:11:53,2019-08-13 14:12:43,50.045s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:12:43,2019-08-13 14:12:45,2.004s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/Run_Communications""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:12:45,2019-08-13 14:14:24,1m - 39.060s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:14:24,2019-08-13 14:14:26,2.001s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/PublishProject_NewEnv""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:14:26,2019-08-13 14:14:58,31.995s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:14:58,2019-08-13 14:15:00,2.004s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:15:00,2019-08-13 14:15:10,10.359s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:15:10,2019-08-13 14:15:12,2.002s,PASSED
+"callTestCase(findTestCase(""Main Login Page/switch_Environments_Experience""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:15:12,2019-08-13 14:15:12,0.339s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:15:12,2019-08-13 14:15:14,2.002s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs""), [:], CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:15:14,2019-08-13 14:15:25,10.281s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:15:25,2019-08-13 14:15:27,2.002s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs - 2nd Workspace""), [:], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-13 14:15:27,2019-08-13 14:15:35,8.329s,PASSED
+windowsCommands.taskKill.kill_service(),Chrome 76.0.3809.100,,,2019-08-13 14:15:35,2019-08-13 14:15:35,0.022s,PASSED

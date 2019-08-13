@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_Amazon_Connection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>650539e9-4f06-4543-88ea-a0f16e0ccae6</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.url_sysadmin</defaultValue>
+      <description></description>
+      <id>e53b9005-5fa2-4fcc-939c-0d16c5769045</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

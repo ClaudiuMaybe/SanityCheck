@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Project_Communications - Testsuite,Firefox 68.0,,,2019-08-13 14:21:32,2019-08-13 14:25:19,3m - 47.479s,INCOMPLETE
+,,,,,,,
+Test Cases/TESTCASE COLLECTIONS/Projects_Communications - Testcases,Firefox 68.0,,,2019-08-13 14:21:32,2019-08-13 14:25:19,3m - 47.285s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/Create_Projects""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:21:32,2019-08-13 14:22:30,57.709s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:22:30,2019-08-13 14:22:32,2.001s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/Run_Communications""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:22:32,2019-08-13 14:24:10,1m - 37.976s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:24:10,2019-08-13 14:24:12,2.002s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/PublishProject_NewEnv""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:24:12,2019-08-13 14:24:43,31.126s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:24:43,2019-08-13 14:24:45,2.003s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:24:45,2019-08-13 14:24:55,9.960s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:24:55,2019-08-13 14:24:57,2.000s,PASSED
+"callTestCase(findTestCase(""Main Login Page/switch_Environments_Experience""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:24:57,2019-08-13 14:24:58,0.642s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:24:58,2019-08-13 14:25:00,2.002s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs""), [:], CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:25:00,2019-08-13 14:25:10,9.937s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:25:10,2019-08-13 14:25:12,2.005s,PASSED
+"callTestCase(findTestCase(""Communications_Projects/VerifyJobs - 2nd Workspace""), [:], STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-13 14:25:12,2019-08-13 14:25:19,7.686s,PASSED
+windowsCommands.taskKill.kill_service(),Firefox 68.0,,,2019-08-13 14:25:19,2019-08-13 14:25:19,0.034s,PASSED
