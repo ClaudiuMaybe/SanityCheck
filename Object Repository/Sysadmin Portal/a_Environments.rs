@@ -4,6 +4,16 @@
    <name>a_Environments</name>
    <tag></tag>
    <elementGuidId>8e82f556-9391-400a-98e6-6a01e94c007d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title = 'Environments' and @href = '/EOS/Environments' and (text() = 'Environments' or . = 'Environments')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-child(2) [id=&quot;deleteEnvironmentTable&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

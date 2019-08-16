@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-not_run: WebUI.callTestCase(findTestCase('Main Login Page/login_Enterprise'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Main Login Page/login_Enterprise'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.url_enterprise)
 
@@ -76,11 +76,19 @@ WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Groups_Users/Page_Groups - Settings - EOS/input_groupName'), GlobalVariable.GroupName_NonAdmin)
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Groups_Users/Page_Groups - Settings - EOS/button_Add'))
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Groups_Users/Page_Groups - Settings - EOS/user_Dropdown'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Groups_Users/Page_Groups - Settings - EOS/select_User2'))
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Groups_Users/Page_Groups - Settings - EOS/button_AddUser_Ok'))
 

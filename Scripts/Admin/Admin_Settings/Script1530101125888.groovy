@@ -31,6 +31,7 @@ WebUI.callTestCase(findTestCase('Admin/Create_EmailConnection'), [:], FailureHan
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
+'zdfkldshfkdfhkdsjkds\r\n\r\n'
 WebUI.callTestCase(findTestCase('Admin/Create_SMSConnection'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)

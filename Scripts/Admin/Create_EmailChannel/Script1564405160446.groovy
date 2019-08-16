@@ -21,7 +21,11 @@ WebUI.click(findTestObject('Admin/SettingsChannels/div_Channels'), FailureHandli
 
 WebUI.click(findTestObject('Admin/SettingsChannels/button_New Channel'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('Admin/Channels/Email/select_EmailQueue'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementNotVisible(findTestObject('Admin/Channels/Email/div_No connection defined. Ple'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -104,6 +108,8 @@ WebUI.waitForElementAttributeValue(findTestObject('Admin/Channels/Email/Send_Tes
 WebUI.verifyElementText(findTestObject('Admin/Channels/Email/Send_Test_Mail/button_Send'), 'Email sent', FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Admin/Channels/Email/Send_Test_Mail/button_Cancel'), FailureHandling.CONTINUE_ON_FAILURE)
 

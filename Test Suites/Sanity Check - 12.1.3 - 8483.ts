@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>Sanity Check - Testsuite</name>
+   <description>Build Nido Patch 3- 8483</description>
+   <name>Sanity Check - 12.1.3 - 8483</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -33,5 +33,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TESTCASE COLLECTIONS/Search - Testcases</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c4ded04-739e-47ea-ae1f-5ee412b4a996</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TESTCASE COLLECTIONS/Cleanup</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

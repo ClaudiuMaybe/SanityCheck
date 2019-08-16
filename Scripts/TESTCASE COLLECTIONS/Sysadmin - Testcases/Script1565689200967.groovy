@@ -30,7 +30,7 @@ WebUI.callTestCase(findTestCase('Sysadmin Portal/Set_NoOfThreads'), [('EnvName')
 
 not_run: WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Sysadmin Portal/Domain/Run_PreProdTest'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sysadmin Portal/Domain/StorageCompacting'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
