@@ -31,13 +31,13 @@
    <testCaseLink>
       <guid>028ea560-868d-4763-b780-38222c8af735</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TESTCASE COLLECTIONS/Search - Testcases</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2c4ded04-739e-47ea-ae1f-5ee412b4a996</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TESTCASE COLLECTIONS/Cleanup</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
