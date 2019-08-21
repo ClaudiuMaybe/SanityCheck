@@ -17,9 +17,9 @@ WebUI.callTestCase(findTestCase('Admin/Admin_Settings'), [:], FailureHandling.CO
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Admin/ES_LIcensesTests'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Admin/ES_LIcensesTests'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Contacts/Create_Contact'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

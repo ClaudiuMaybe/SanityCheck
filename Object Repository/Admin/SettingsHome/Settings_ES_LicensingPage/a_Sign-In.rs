@@ -4,7 +4,21 @@
    <name>a_Sign-In</name>
    <tag></tag>
    <elementGuidId>0e7aa9b4-0d9e-4ab7-a38f-92a108f7e47b</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[id=&quot;MainContentHolder&quot;] a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#ecrionAccount' and @id = 'manage-integration' and (text() = 'Sign-In' or . = 'Sign-In')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

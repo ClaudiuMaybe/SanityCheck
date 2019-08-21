@@ -21,27 +21,35 @@ not_run: WebUI.click(findTestObject('Admin/a_Admin'), FailureHandling.CONTINUE_O
 
 not_run: WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/div_Licensing'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/a_Sign-In'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.setText(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/input_Username_Username'), GlobalVariable.LicenseAcc_Username, 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.setText(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/input_Password_Password'), GlobalVariable.LicenseAcc_Password, 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/button_OkSignInWindow'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/button_Add License'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
+
+
+if (WebUI.verifyElementVisible(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/a_Sign-In'), FailureHandling.OPTIONAL) == true) 
+{
+	WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/a_Sign-In'), FailureHandling.CONTINUE_ON_FAILURE)
+	WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	WebUI.setText(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/input_Username_Username'), GlobalVariable.LicenseAcc_Username,
+		FailureHandling.CONTINUE_ON_FAILURE)
+	
+	WebUI.setText(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/input_Password_Password'), GlobalVariable.LicenseAcc_Password,
+		FailureHandling.CONTINUE_ON_FAILURE)
+	
+	WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/button_OkSignInWindow'), FailureHandling.CONTINUE_ON_FAILURE)
+}
+
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/input_selectLicense'), 3)
+
 WebUI.check(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/input_selectLicense'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/button_Install 1 licenses'), FailureHandling.CONTINUE_ON_FAILURE)
 

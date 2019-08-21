@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[id=&quot;dialog_configure_ecrionaccount&quot;] [id=&quot;modalOkBtn&quot;]</value>
+         <value>[id=&quot;submitButton&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

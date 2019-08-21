@@ -4,7 +4,17 @@
    <name>input_Password_Password</name>
    <tag></tag>
    <elementGuidId>bd250356-3dce-47ed-ab4e-e8344d93b3aa</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[id=&quot;passwordInput&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'password' and @id = 'Password' and @name = 'Password']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

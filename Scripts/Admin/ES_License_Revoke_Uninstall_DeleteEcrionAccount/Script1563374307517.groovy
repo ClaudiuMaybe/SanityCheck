@@ -47,25 +47,3 @@ WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/NoLicenses_Text'), 'No items', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/toggle_EcrionAccount'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/a_Sign-In'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/button_ Delete_SignInWindow'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/button_OkButton_deleteAccountConnecction'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/a_Sign-In'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/input_Username_Username'), 3, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/button_Cancel_SignInWindow'), FailureHandling.CONTINUE_ON_FAILURE)
-
