@@ -28,9 +28,9 @@ WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Sysadmin Portal/Set_NoOfThreads'), [('EnvName') : 'QaTest', ('Username') : 'Ere'], FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Sysadmin Portal/Domain/StorageCompacting'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sysadmin Portal/Domain/PreProd_Test'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
