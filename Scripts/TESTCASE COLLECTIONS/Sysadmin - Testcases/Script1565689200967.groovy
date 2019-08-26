@@ -34,9 +34,9 @@ not_run: WebUI.callTestCase(findTestCase('Sysadmin Portal/Domain/StorageCompacti
 
 WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Sysadmin Portal/Help/Sysadmin_Ask a question_Window'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sysadmin Portal/Help/Sysadmin_Ask a question_Window'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Sysadmin Portal/Domain/EmailConnection/Set_Email_Connection'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

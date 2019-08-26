@@ -25,6 +25,8 @@ public class Environment {
 	def Create_env (String env_Name, String featureSet)
 	{
 		WebUI.waitForElementVisible(findTestObject('Sysadmin Portal/Environments Page/button_New Environment'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+		
+		WebUI.delay (3)
 
 		WebUI.click(findTestObject('Sysadmin Portal/Environments Page/button_New Environment'), FailureHandling.CONTINUE_ON_FAILURE)
 

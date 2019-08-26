@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>Build Nido Patch 3- 8483</description>
-   <name>Sanity Check - 12.1.3 - 8483</name>
+   <name>Sanity Check - 12.2.4 - 8509</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,7 +9,7 @@
    <pageLoadTimeout>5</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>e7d8e50a-267c-4882-a0fc-f72fdac2d4ae</testSuiteGuid>
+   <testSuiteGuid>0c7836b7-1fc9-49d1-999a-3c052f394c49</testSuiteGuid>
    <testCaseLink>
       <guid>f643918d-9df4-4d96-b9c1-f704ca2f7ba2</guid>
       <isReuseDriver>false</isReuseDriver>

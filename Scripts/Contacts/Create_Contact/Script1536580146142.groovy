@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Contacts/Page_Contacts/input_FirstName'), 'TestCon
 
 WebUI.setText(findTestObject('Contacts/Page_Contacts/input_LAstName'), 'TestContactLM', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Contacts/Page_Contacts/input_email'), 'test@test.test', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Contacts/Page_Contacts/input_email'), GlobalVariable.Email_Admin, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Contacts/Page_Contacts/input_Phone'), '02123456789', FailureHandling.CONTINUE_ON_FAILURE)
 
