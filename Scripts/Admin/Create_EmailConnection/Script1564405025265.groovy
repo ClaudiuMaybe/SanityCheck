@@ -85,7 +85,7 @@ WebUI.setText(findTestObject('Admin/SettingsSysinternalsEmail/input_smtpUserName
 
 WebUI.setText(findTestObject('Admin/SettingsSysinternalsEmail/input_ServerName'), 'smtp.office365.com', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Admin/SettingsSysinternalsEmail/input_passwordTxt'), '3cr1oN123456', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Admin/SettingsSysinternalsEmail/input_passwordTxt'), '3cr1oN1!2@3#', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Admin/SettingsSysinternalsEmail/input_smtpFromTxt'), 'test.notifications@ecrion.com', FailureHandling.CONTINUE_ON_FAILURE)
 
