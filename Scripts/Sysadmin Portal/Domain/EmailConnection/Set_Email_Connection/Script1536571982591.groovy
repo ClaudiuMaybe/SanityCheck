@@ -36,7 +36,7 @@ WebUI.setText(findTestObject('Sysadmin Portal/Domain/Page_Email/input_smtpUserNa
 
 WebUI.setText(findTestObject('Sysadmin Portal/Domain/Page_Email/input_smtpHostTxt'), 'smtp.office365.com', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Sysadmin Portal/Domain/Page_Email/input_smtpPasswordTxt'), '3cr1oN123456', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Sysadmin Portal/Domain/Page_Email/input_smtpPasswordTxt'), '3cr1oN1!2@3#', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Sysadmin Portal/Domain/Page_Email/input_smtpFromTxt'), 'test.notifications@ecrion.com', FailureHandling.CONTINUE_ON_FAILURE)
 
