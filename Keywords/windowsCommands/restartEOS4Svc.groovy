@@ -22,8 +22,8 @@ public class restartEOS4Svc {
 	@Keyword
 	def kill_service() {
 		//String RestartEos4Svc = "net stop "Ecrion Omni System 4 Service"" && net start Ecrion Omni System 4 Service"
-			Runtime.getRuntime().exec(firefox)
-	
-		}
+		Runtime.getRuntime().exec(firefox)
+
 	}
-	
+}
+

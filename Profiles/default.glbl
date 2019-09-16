@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>Sysadmin URL</description>
-      <initValue>'http://192.168.1.97:8095/'</initValue>
+      <initValue>'http://192.168.193.97:8095/'</initValue>
       <name>url_sysadmin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Enterprise URL</description>
-      <initValue>'http://192.168.1.97:8094/'</initValue>
+      <initValue>'http://192.168.193.97:8094/'</initValue>
       <name>url_enterprise</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
