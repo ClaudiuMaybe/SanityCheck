@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>Sysadmin URL</description>
-      <initValue>'http://192.168.1.97:8095/'</initValue>
+      <initValue>'http://192.168.193.97:8095/'</initValue>
       <name>url_sysadmin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Enterprise URL</description>
-      <initValue>'http://192.168.1.97:8094/'</initValue>
+      <initValue>'http://192.168.193.97:8094/'</initValue>
       <name>url_enterprise</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>You will only need to modify the first part of the url (ex. http://192.168.1.55:8094)</description>
-      <initValue>'http://192.168.1.97:8094/EOS/Files/#workspace/Default/3_OnDemand%20Comm'</initValue>
+      <initValue>'http://192.168.193.97:8094/EOS/Files/#workspace/Default/3_OnDemand%20Comm'</initValue>
       <name>Search_Result_Link</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
