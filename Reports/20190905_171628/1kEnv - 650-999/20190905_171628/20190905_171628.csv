@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1kEnv - 650-999,Chrome 76.0.3809.132,,,2019-09-05 17:16:38,2019-09-05 18:51:22,1h - 34m - 43.852s,INCOMPLETE
+,,,,,,,
+Test Cases/Sysadmin Portal/Create 1k env - 650-1000,Chrome 76.0.3809.132,,,2019-09-05 17:16:38,2019-09-05 18:51:22,1h - 34m - 43.674s,FAILED
+"callTestCase(findTestCase(""Sysadmin Login Page/login_Sysadmin""), [:], STOP_ON_FAILURE)",Chrome 76.0.3809.132,,,2019-09-05 17:16:39,2019-09-05 17:16:50,10.957s,PASSED
+"click(findTestObject(""Sysadmin Portal/a_Environments""), CONTINUE_ON_FAILURE)",Chrome 76.0.3809.132,,,2019-09-05 17:16:50,2019-09-05 17:16:50,0.235s,PASSED
+"for ([i = 781, i < 1001, (i++)])",Chrome 76.0.3809.132,,,2019-09-05 17:16:50,2019-09-05 18:51:19,1h - 34m - 29.148s,FAILED
+"delay(3, CONTINUE_ON_FAILURE)",Chrome 76.0.3809.132,,,2019-09-05 18:51:19,2019-09-05 18:51:22,3.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 76.0.3809.132,,,2019-09-05 18:51:22,2019-09-05 18:51:22,0.029s,PASSED

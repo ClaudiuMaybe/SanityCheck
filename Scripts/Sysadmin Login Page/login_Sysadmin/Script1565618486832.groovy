@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser(GlobalVariable.url_sysadmin, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -29,7 +30,10 @@ WebUiBuiltInKeywords.setText(findTestObject('Sysadmin Login Page/input_password'
 
 WebUI.click(findTestObject('Sysadmin Login Page/button_Sign in'), FailureHandling.CONTINUE_ON_FAILURE)
 
-if (WebUI.verifyElementVisible(findTestObject('Sysadmin Login Page/Change_Password_Window/Textbox_Confirm_Password'), FailureHandling.OPTIONAL)) {
+WebUI.delay(1)
+
+if (WebUI.verifyElementVisible(findTestObject('Sysadmin Login Page/Change_Password_Window/Textbox_Confirm_Password'), FailureHandling.OPTIONAL) == 
+true) {
     WebUI.verifyElementText(findTestObject('Sysadmin Login Page/Change_Password_Window/Change_Password_Title'), 'Please change password', 
         FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create 1k env - 1-649</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57eafe76-89fb-4962-8b4d-c0d368699e63</testCaseGuid>
+   <variable>
+      <defaultValue>'Env1'</defaultValue>
+      <description></description>
+      <id>4b7ca32c-ed1f-4cf6-8540-28dfbfd18dd5</id>
+      <masked>false</masked>
+      <name>env_name</name>
+   </variable>
+</TestCaseEntity>
