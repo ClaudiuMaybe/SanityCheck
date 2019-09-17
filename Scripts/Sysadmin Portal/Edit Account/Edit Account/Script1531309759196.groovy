@@ -20,9 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-not_run: WebUI.callTestCase(findTestCase('Sysadmin Login Page/login_Sysadmin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sysadmin Login Page/login_Sysadmin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Sysadmin Portal/Sysadmin dropdown'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -47,7 +47,9 @@ WebUI.setText(findTestObject('Sysadmin Portal/Sysadmin_dropdown/Edit Account Win
 WebUI.setText(findTestObject('Sysadmin Portal/Sysadmin_dropdown/Edit Account Window/input_confirmPasswordTxt'), 'sysadmin', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome - EOS/button_OK_1'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome - EOS/button_OK_1'), FailureHandling.CONTINUE_ON_FAILURE)
 

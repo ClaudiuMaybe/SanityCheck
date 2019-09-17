@@ -24,6 +24,21 @@ WebUI.callTestCase(findTestCase('Sysadmin Login Page/login_Sysadmin'), [:], Fail
 
 WebUI.click(findTestObject('Sysadmin Portal/a_Environments'), FailureHandling.CONTINUE_ON_FAILURE)
 
+	while (WebUI.verifyElementVisible(findTestObject('Page_Environments - EOS/delete_Environment'), FailureHandling.OPTIONAL) == true)
+	{
+		WebUI.click(findTestObject('Page_Environments - EOS/delete_Environment'))
+	
+		WebUI.delay(1)
+	
+		WebUI.click(findTestObject('Page_Environments - EOS/button_ConfirmDeleteEnv'))
+		
+		WebUI.delay(1)
+	
+		WebUI.refresh()
+	
+		WebUI.delay(1)
+	}
+
 'Feature Set options: eossi = Develop, eosccm - Converse, eoscem = Experience, eoscustom = Custom'
 CustomKeywords.'sysadmin.Environment.Create_env'('1_Develop', 'eossi')
 

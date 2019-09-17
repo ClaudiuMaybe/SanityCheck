@@ -32,8 +32,8 @@ WebUI.click(findTestObject('Sysadmin Login Page/button_Sign in'), FailureHandlin
 
 WebUI.delay(1)
 
-if (WebUI.verifyElementVisible(findTestObject('Sysadmin Login Page/Change_Password_Window/Textbox_Confirm_Password'), FailureHandling.OPTIONAL) == 
-true) {
+if (WebUI.verifyElementVisible(findTestObject('Sysadmin Login Page/Change_Password_Window/Textbox_Confirm_Password'), FailureHandling.OPTIONAL)) 
+{
     WebUI.verifyElementText(findTestObject('Sysadmin Login Page/Change_Password_Window/Change_Password_Title'), 'Please change password', 
         FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -64,4 +64,4 @@ true) {
 }
 
 WebUI.waitForElementVisible(findTestObject('Sysadmin Login Page/Environments card'), 5, FailureHandling.CONTINUE_ON_FAILURE)
-
+WebUI.verifyElementVisible(findTestObject('Sysadmin Login Page/Environments card'), FailureHandling.STOP_ON_FAILURE)

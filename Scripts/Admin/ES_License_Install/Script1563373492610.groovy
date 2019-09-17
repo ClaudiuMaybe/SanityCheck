@@ -43,6 +43,8 @@ WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.check(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/input_selectLicense'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('Admin/SettingsHome/Settings_ES_LicensingPage/button_Install 1 licenses'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)

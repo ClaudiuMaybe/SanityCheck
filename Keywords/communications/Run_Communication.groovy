@@ -36,7 +36,7 @@ public class Run_Communication {
 				FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_testcommuncation1_Batch'),
-				FailureHandling.CONTINUE_ON_FAILURE)
+						FailureHandling.CONTINUE_ON_FAILURE)
 
 				WebUI.waitForElementClickable(findTestObject('Projects_Communications/Page_Communications - Communication/button_Run'),
 						10, FailureHandling.CONTINUE_ON_FAILURE)
@@ -52,11 +52,11 @@ public class Run_Communication {
 				break
 
 			case "Interractive":
-			WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_DefaultWorkspace'),
+				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_DefaultWorkspace'),
 				FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_testcommuncation2_Interractive'),
-				FailureHandling.CONTINUE_ON_FAILURE)
+						FailureHandling.CONTINUE_ON_FAILURE)
 
 				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/span_Search for a contact'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -77,11 +77,11 @@ public class Run_Communication {
 				break
 
 			case "On_Demand":
-			WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_DefaultWorkspace'),
+				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_DefaultWorkspace'),
 				FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_testcommuncation3_OnDemand'),
-				FailureHandling.CONTINUE_ON_FAILURE)
+						FailureHandling.CONTINUE_ON_FAILURE)
 
 				WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -104,11 +104,11 @@ public class Run_Communication {
 				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Results/Summaru_Tab'))
 				break
 			case "From_Workflow":
-			WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_DefaultWorkspace'),
+				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_DefaultWorkspace'),
 				FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_testcommuncation4_FromWk4_Batch'),
-				FailureHandling.CONTINUE_ON_FAILURE)
+						FailureHandling.CONTINUE_ON_FAILURE)
 
 				WebUI.waitForElementClickable(findTestObject('Projects_Communications/Page_Communications - Communication/button_Run'),
 						15)
@@ -130,6 +130,7 @@ public class Run_Communication {
 			case "Imported":
 				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_SecondWorkspace'),
 				FailureHandling.CONTINUE_ON_FAILURE)
+				WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.click(findTestObject('Projects_Communications/Page_Communications - Communication/select_testcommuncation1_Batch'),
 						FailureHandling.CONTINUE_ON_FAILURE)
 

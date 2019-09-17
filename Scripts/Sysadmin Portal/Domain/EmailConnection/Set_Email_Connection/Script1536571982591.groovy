@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.callTestCase(findTestCase('Sysadmin Login Page/login_Sysadmin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.url_sysadmin)
+not_run: WebUI.navigateToUrl(GlobalVariable.url_sysadmin)
 
 WebUI.delay(2)
 

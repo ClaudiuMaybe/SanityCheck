@@ -51,18 +51,14 @@ public class Environment {
 
 		WebUI.click(findTestObject('Sysadmin Portal/Environments Page/createNewEnv_button'), FailureHandling.CONTINUE_ON_FAILURE)
 
-		WebUI.delay(4, FailureHandling.CONTINUE_ON_FAILURE)
-
 		WebUI.waitForElementVisible(findTestObject('Page_Environments - EOS/select_FeatureSet'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-		WebUI.delay(2)
-		
-	    WebUI.selectOptionByValue(findTestObject('Page_Environments - EOS/select_FeatureSet'), featureSet, true)
-		
+		WebUI.selectOptionByValue(findTestObject('Page_Environments - EOS/select_FeatureSet'), featureSet, true)
+
 		WebUI.delay(1)
 
-	    WebUI.click(findTestObject('Sysadmin Portal/Environments Page/Ok button_Edit Environment'), FailureHandling.CONTINUE_ON_FAILURE)
-		
+		WebUI.click(findTestObject('Sysadmin Portal/Environments Page/Ok button_Edit Environment'), FailureHandling.CONTINUE_ON_FAILURE)
+
 	}
 }
 

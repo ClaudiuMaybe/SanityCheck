@@ -30,7 +30,10 @@ WebUI.click(findTestObject('Sysadmin Portal/Domain/Page_Welcome - EOS/a_Domain')
 
 WebUI.click(findTestObject('Sysadmin Portal/Domain/button_PreProduction_Test'))
 
-WebUI.waitForElementPresent(findTestObject('Sysadmin Portal/Domain/Details_Button_Visible'), 60, FailureHandling.STOP_ON_FAILURE)
+while (WebUI.verifyElementAttributeValue(findTestObject('Sysadmin Portal/Domain/verify_PreProdTestFinish'), 'class', 'fa fa-circle-o-notch fa-spin', 
+    1, FailureHandling.OPTIONAL) == true) {
+    WebUI.delay(2)
+}
 
 WebUI.verifyElementNotPresent(findTestObject('Sysadmin Portal/Domain/Details_Button_Visible'), 1)
 
